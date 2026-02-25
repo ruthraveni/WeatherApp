@@ -1,0 +1,107 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff; 
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.app {
+  text-align: center;
+  padding: 20px;
+}
+.card {
+  background: rgb(104, 168, 168); 
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+h1, h2 {
+  margin-bottom: 15px;
+  color: #002f2f;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.loader {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4500;
+  margin: 20px 0;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #77f55b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #7eecf8;
+}
+.error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
