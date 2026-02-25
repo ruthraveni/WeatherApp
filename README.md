@@ -1,16 +1,12 @@
-# React + Vite
+A simple React Weather App that fetches daily and yearly weather data using the Open-Meteo API.  
+Users can search weather by specific date or get yearly statistics including max, min, and median temperatures.  
+The app displays data with responsive cards, including temperature, humidity, and pressure.  
+Built with React, functional components, and hooks for state management.  
+Interactive UI with loader and error handling for invalid cities or dates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<img width="892" height="405" alt="image" src="https://github.com/user-attachments/assets/7e9981ca-12b0-4462-ad31-7a59e0a47b66" />
+<img width="771" height="420" alt="image" src="https://github.com/user-attachments/assets/6564fe47-285d-4f31-a85f-c5c5a45a733c" />
+<img width="821" height="423" alt="image" src="https://github.com/user-attachments/assets/59335fc0-c4d1-4934-bd9d-16a77e4c3120" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
